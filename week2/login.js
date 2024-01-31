@@ -22,7 +22,7 @@ createApp({
                 window.location="productApi.html"
             })
             .catch((error)=>{
-                console.log(error);
+                Swal.fire("登入失敗，請重新輸入！");
             })
         }
     }
