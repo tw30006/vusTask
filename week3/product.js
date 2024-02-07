@@ -24,7 +24,7 @@ createApp({
                 this.getProducts()
             })
             .catch((error)=>{
-                alert(err.response.data.message);
+                alert(error.response.data.message);
             })
         },
         // 取得商品列表
